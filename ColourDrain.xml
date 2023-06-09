@@ -1,0 +1,15 @@
+<effect>
+<name>Colour Drain (Experimental)</name>	
+<description>Reduces every colour chanel linearly to 0 according to an animation coefficient.</description>
+<company>Net Negative</company>
+<parameter>
+		<name>Animation Coefficient</name>
+		<code>animCoeff</code>
+		<description>The animation coefficient (0 = origional image, 255 = completely black)</description>
+		<type>int</type>
+		<property>slider</property>
+		<min>0</min>
+		<max>255</max>
+</parameter>
+</effect>
+
